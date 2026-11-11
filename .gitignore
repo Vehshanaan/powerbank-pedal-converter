@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+hardware/*/generator/_vendor/
+hardware/*/route/*.log
+hardware/*/route/*.ses
+hardware/*/route/*.dsn
+hardware/*/build.log

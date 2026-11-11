@@ -1,0 +1,5262 @@
+(export
+	(version "E")
+	(design
+		(source "D:\\Codes\\.temp\\beta\\hardware\\v1-usbc-9v\\V1_USBC_9V\\V1_USBC_9V.kicad_sch")
+		(date "2026-11-11T10:50:19")
+		(tool "Eeschema 10.0.7")
+		(sheet
+			(number "1")
+			(name "/")
+			(tstamps "/")
+			(title_block
+				(title "V1 USB-C to 9V pedal supply")
+				(company)
+				(rev "A")
+				(date)
+				(source "V1_USBC_9V.kicad_sch")
+				(comment
+					(number "1")
+					(value "")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+	)
+	(components
+		(comp
+			(ref "C1")
+			(value "22uF")
+			(footprint "C_1206")
+			(fields
+				(field
+					(name "LCSC")
+				)
+				(field
+					(name "Footprint") "C_1206")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "")
+				(part "SELFC")
+				(description "SELF:C")
+			)
+			(property
+				(name "LCSC")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "V1_USBC_9V/V1_USBC_9V.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "84793443-f83c-551c-989f-c45992816340")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C2")
+			(value "100nF")
+			(footprint "C_0603")
+			(fields
+				(field
+					(name "LCSC")
+				)
+				(field
+					(name "Footprint") "C_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "")
+				(part "SELFC")
+				(description "SELF:C")
+			)
+			(property
+				(name "LCSC")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "V1_USBC_9V/V1_USBC_9V.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "554bf36f-74a0-591b-ad08-10bdef1640f5")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C3")
+			(value "680pF")
+			(footprint "C_0603")
+			(fields
+				(field
+					(name "LCSC") "C1445")
+				(field
+					(name "Footprint") "C_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "")
+				(part "SELFC")
+				(description "SELF:C")
+			)
+			(property
+				(name "LCSC")
+				(value "C1445")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "V1_USBC_9V/V1_USBC_9V.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "5e20856b-17f3-5f01-a64b-64cf77226697")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C4")
+			(value "10pF")
+			(footprint "C_0603")
+			(fields
+				(field
+					(name "LCSC")
+				)
+				(field
+					(name "Footprint") "C_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "")
+				(part "SELFC")
+				(description "SELF:C")
+			)
+			(property
+				(name "LCSC")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "V1_USBC_9V/V1_USBC_9V.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b88ec2f6-b65c-551b-bbbd-67d10a1c2de1")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C5")
+			(value "4.7uF")
+			(footprint "C_0805")
+			(fields
+				(field
+					(name "LCSC")
+				)
+				(field
+					(name "Footprint") "C_0805")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "")
+				(part "SELFC")
+				(description "SELF:C")
+			)
+			(property
+				(name "LCSC")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "V1_USBC_9V/V1_USBC_9V.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d5e0ef77-b207-51e8-a981-44a63fa5cc9e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C6")
+			(value "4.7uF")
+			(footprint "C_0805")
+			(fields
+				(field
+					(name "LCSC")
+				)
+				(field
+					(name "Footprint") "C_0805")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "")
+				(part "SELFC")
+				(description "SELF:C")
+			)
+			(property
+				(name "LCSC")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "V1_USBC_9V/V1_USBC_9V.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "189663da-71fa-5b49-bb5e-9231f5f3555d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C7")
+			(value "100nF")
+			(footprint "C_0603")
+			(fields
+				(field
+					(name "LCSC")
+				)
+				(field
+					(name "Footprint") "C_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "")
+				(part "SELFC")
+				(description "SELF:C")
+			)
+			(property
+				(name "LCSC")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "V1_USBC_9V/V1_USBC_9V.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "dea695a3-7c26-597d-b9c4-4c73c18a2db8")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C8")
+			(value "100nF")
+			(footprint "C_0603")
+			(fields
+				(field
+					(name "LCSC")
+				)
+				(field
+					(name "Footprint") "C_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "")
+				(part "SELFC")
+				(description "SELF:C")
+			)
+			(property
+				(name "LCSC")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "V1_USBC_9V/V1_USBC_9V.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "3757fb86-0f1c-5983-8cdb-24255856e75a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C9")
+			(value "100nF")
+			(footprint "C_0603")
+			(fields
+				(field
+					(name "LCSC")
+				)
+				(field
+					(name "Footprint") "C_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "")
+				(part "SELFC")
+				(description "SELF:C")
+			)
+			(property
+				(name "LCSC")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "V1_USBC_9V/V1_USBC_9V.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "cc453de0-7736-53b5-a399-96b190a9b64a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C10")
+			(value "10nF")
+			(footprint "C_0603")
+			(fields
+				(field
+					(name "LCSC")
+				)
+				(field
+					(name "Footprint") "C_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "")
+				(part "SELFC")
+				(description "SELF:C")
+			)
+			(property
+				(name "LCSC")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "V1_USBC_9V/V1_USBC_9V.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "5fa17b77-2093-5574-a893-33cd6736d643")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C11")
+			(value "100nF")
+			(footprint "C_0603")
+			(fields
+				(field
+					(name "LCSC")
+				)
+				(field
+					(name "Footprint") "C_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "")
+				(part "SELFC")
+				(description "SELF:C")
+			)
+			(property
+				(name "LCSC")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "V1_USBC_9V/V1_USBC_9V.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "db06613d-620d-5598-a94f-d317f1ed6e4f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C13")
+			(value "47uF")
+			(footprint "C_1206")
+			(fields
+				(field
+					(name "LCSC")
+				)
+				(field
+					(name "Footprint") "C_1206")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "")
+				(part "SELFC")
+				(description "SELF:C")
+			)
+			(property
+				(name "LCSC")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "V1_USBC_9V/V1_USBC_9V.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ee362733-caf4-51c9-9ecb-46473cc43691")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D1")
+			(value "SMBJ18A")
+			(footprint "D_SMB")
+			(fields
+				(field
+					(name "LCSC") "C152104")
+				(field
+					(name "Footprint") "D_SMB")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "")
+				(part "SELFTVS")
+				(description "SELF:TVS")
+			)
+			(property
+				(name "LCSC")
+				(value "C152104")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "V1_USBC_9V/V1_USBC_9V.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "601fd228-076b-5a72-acb0-3868dbb1aed0")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D2")
+			(value "SS34")
+			(footprint "D_SMA")
+			(fields
+				(field
+					(name "LCSC") "C8678")
+				(field
+					(name "Footprint") "D_SMA")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "")
+				(part "SELFD")
+				(description "SELF:D")
+			)
+			(property
+				(name "LCSC")
+				(value "C8678")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "V1_USBC_9V/V1_USBC_9V.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "6a366517-1e27-5129-814e-e2ada38697b7")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D3")
+			(value "BZT52C8V2")
+			(footprint "D_SOD-123")
+			(fields
+				(field
+					(name "LCSC")
+				)
+				(field
+					(name "Footprint") "D_SOD-123")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "")
+				(part "SELFD")
+				(description "SELF:D")
+			)
+			(property
+				(name "LCSC")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "V1_USBC_9V/V1_USBC_9V.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b840ee57-a4af-57a9-a213-816a4cf68445")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D4")
+			(value "BZT52C10")
+			(footprint "D_SOD-123")
+			(fields
+				(field
+					(name "LCSC") "C2103")
+				(field
+					(name "Footprint") "D_SOD-123")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "")
+				(part "SELFD")
+				(description "SELF:D")
+			)
+			(property
+				(name "LCSC")
+				(value "C2103")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "V1_USBC_9V/V1_USBC_9V.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c33c1b44-899e-57f5-b6ed-8221f09c0171")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D5")
+			(value "BZT52C10")
+			(footprint "D_SOD-123")
+			(fields
+				(field
+					(name "LCSC") "C2103")
+				(field
+					(name "Footprint") "D_SOD-123")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "")
+				(part "SELFD")
+				(description "SELF:D")
+			)
+			(property
+				(name "LCSC")
+				(value "C2103")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "V1_USBC_9V/V1_USBC_9V.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f76b9bf7-8604-5e75-b8ec-6b68e9f3bc5c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D6")
+			(value "SMBJ18A")
+			(footprint "D_SMB")
+			(fields
+				(field
+					(name "LCSC") "C152104")
+				(field
+					(name "Footprint") "D_SMB")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "")
+				(part "SELFTVS")
+				(description "SELF:TVS")
+			)
+			(property
+				(name "LCSC")
+				(value "C152104")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "V1_USBC_9V/V1_USBC_9V.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "de46d7b2-b55f-5450-95f6-3ac928a592b1")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D7")
+			(value "LED_GREEN")
+			(footprint "LED_0603")
+			(fields
+				(field
+					(name "LCSC") "C965804")
+				(field
+					(name "Footprint") "LED_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "")
+				(part "SELFLED")
+				(description "SELF:LED")
+			)
+			(property
+				(name "LCSC")
+				(value "C965804")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "V1_USBC_9V/V1_USBC_9V.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d27000e9-93dc-5829-9a52-8f0e37552481")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D8")
+			(value "LED_RED")
+			(footprint "LED_0603")
+			(fields
+				(field
+					(name "LCSC") "C965799")
+				(field
+					(name "Footprint") "LED_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "")
+				(part "SELFLED")
+				(description "SELF:LED")
+			)
+			(property
+				(name "LCSC")
+				(value "C965799")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "V1_USBC_9V/V1_USBC_9V.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "64731a87-4656-559c-9290-733d87a981f3")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "F1")
+			(value "500mA")
+			(footprint "Fuse_1812")
+			(fields
+				(field
+					(name "LCSC") "C70106")
+				(field
+					(name "Footprint") "Fuse_1812")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "")
+				(part "SELFF")
+				(description "SELF:F")
+			)
+			(property
+				(name "LCSC")
+				(value "C70106")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "V1_USBC_9V/V1_USBC_9V.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f343e753-deef-5259-9889-79a63ac97d85")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "F2")
+			(value "200mA")
+			(footprint "Fuse_1812")
+			(fields
+				(field
+					(name "LCSC") "C35456")
+				(field
+					(name "Footprint") "Fuse_1812")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "")
+				(part "SELFF")
+				(description "SELF:F")
+			)
+			(property
+				(name "LCSC")
+				(value "C35456")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "V1_USBC_9V/V1_USBC_9V.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "2121fcca-5b1b-50f6-87bd-c0bba7fb2f93")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J1")
+			(value "TYPE-C-31-M-12")
+			(footprint "TYPE-C-31-M-12")
+			(fields
+				(field
+					(name "LCSC") "C165948")
+				(field
+					(name "Footprint") "TYPE-C-31-M-12")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "")
+				(part "EASYTYPE-C-31-M-12")
+				(description "EASY:TYPE-C-31-M-12")
+			)
+			(property
+				(name "LCSC")
+				(value "C165948")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "V1_USBC_9V/V1_USBC_9V.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "591fcff7-ccdf-5a05-a543-18d597a7e3b4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "A1B12")
+						)
+						(pin
+							(num "A4B9")
+						)
+						(pin
+							(num "B8")
+						)
+						(pin
+							(num "A5")
+						)
+						(pin
+							(num "B7")
+						)
+						(pin
+							(num "A6")
+						)
+						(pin
+							(num "A7")
+						)
+						(pin
+							(num "B6")
+						)
+						(pin
+							(num "A8")
+						)
+						(pin
+							(num "B5")
+						)
+						(pin
+							(num "B4A9")
+						)
+						(pin
+							(num "B1A12")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J2")
+			(value "DC-005-5.5x2.1")
+			(footprint "DC-005-TH")
+			(fields
+				(field
+					(name "LCSC") "C431533")
+				(field
+					(name "Footprint") "DC-005-TH")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "")
+				(part "EASYDC005_C431533")
+				(description "EASY:DC005_C431533")
+			)
+			(property
+				(name "LCSC")
+				(value "C431533")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "V1_USBC_9V/V1_USBC_9V.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b2467dc5-0b6a-520a-9c9d-16a98a2bf405")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "K1")
+			(value "SW_PUSH")
+			(footprint "SW_SPST_Tactile_6x6_4.3mm_H4.3mm")
+			(fields
+				(field
+					(name "LCSC") "C2837515")
+				(field
+					(name "Footprint") "SW_SPST_Tactile_6x6_4.3mm_H4.3mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "")
+				(part "EASYKH-6X6X5H-TJ")
+				(description "EASY:KH-6X6X5H-TJ")
+			)
+			(property
+				(name "LCSC")
+				(value "C2837515")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "V1_USBC_9V/V1_USBC_9V.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "861d67a2-05e4-5796-9f04-d1666d323723")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "L1")
+			(value "10uH")
+			(footprint "L_Bourns-SRN4020")
+			(fields
+				(field
+					(name "LCSC") "C602032")
+				(field
+					(name "Footprint") "L_Bourns-SRN4020")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "")
+				(part "SELFL")
+				(description "SELF:L")
+			)
+			(property
+				(name "LCSC")
+				(value "C602032")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "V1_USBC_9V/V1_USBC_9V.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d678032a-1a3e-5979-875d-38291ca0a0fa")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "Q1")
+			(value "AO3401A")
+			(footprint "SOT-23")
+			(fields
+				(field
+					(name "LCSC") "C15127")
+				(field
+					(name "Footprint") "SOT-23")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "")
+				(part "EASYAO3401A")
+				(description "EASY:AO3401A")
+			)
+			(property
+				(name "LCSC")
+				(value "C15127")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "V1_USBC_9V/V1_USBC_9V.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e9764c79-43df-5144-beb0-90234c404c01")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "Q2")
+			(value "AO3401A")
+			(footprint "SOT-23")
+			(fields
+				(field
+					(name "LCSC") "C15127")
+				(field
+					(name "Footprint") "SOT-23")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "")
+				(part "EASYAO3401A")
+				(description "EASY:AO3401A")
+			)
+			(property
+				(name "LCSC")
+				(value "C15127")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "V1_USBC_9V/V1_USBC_9V.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "2aaa89bf-f63d-5920-9ff8-8c1662dfeeac")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "Q4")
+			(value "MMBT3904")
+			(footprint "SOT-23")
+			(fields
+				(field
+					(name "LCSC") "C20526")
+				(field
+					(name "Footprint") "SOT-23")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "")
+				(part "EASYMMBT3904-C20526")
+				(description "EASY:MMBT3904-C20526")
+			)
+			(property
+				(name "LCSC")
+				(value "C20526")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "V1_USBC_9V/V1_USBC_9V.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "941e6c93-8cc5-564b-8fa3-1adade193513")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "Q7")
+			(value "MMBT3904")
+			(footprint "SOT-23")
+			(fields
+				(field
+					(name "LCSC") "C20526")
+				(field
+					(name "Footprint") "SOT-23")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "")
+				(part "EASYMMBT3904-C20526")
+				(description "EASY:MMBT3904-C20526")
+			)
+			(property
+				(name "LCSC")
+				(value "C20526")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "V1_USBC_9V/V1_USBC_9V.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c31be160-72cf-514f-b0b3-e3068862350d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "Q8")
+			(value "MMBT3904")
+			(footprint "SOT-23")
+			(fields
+				(field
+					(name "LCSC") "C20526")
+				(field
+					(name "Footprint") "SOT-23")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "")
+				(part "EASYMMBT3904-C20526")
+				(description "EASY:MMBT3904-C20526")
+			)
+			(property
+				(name "LCSC")
+				(value "C20526")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "V1_USBC_9V/V1_USBC_9V.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "81602864-30d0-5d35-973a-431307e4b1bb")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "Q9")
+			(value "MMBT3904")
+			(footprint "SOT-23")
+			(fields
+				(field
+					(name "LCSC") "C20526")
+				(field
+					(name "Footprint") "SOT-23")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "")
+				(part "EASYMMBT3904-C20526")
+				(description "EASY:MMBT3904-C20526")
+			)
+			(property
+				(name "LCSC")
+				(value "C20526")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "V1_USBC_9V/V1_USBC_9V.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f0d30fee-3874-53fc-8f3d-bfd1661fc86e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R1")
+			(value "5.1k")
+			(footprint "R_0603")
+			(fields
+				(field
+					(name "LCSC") "C23186")
+				(field
+					(name "Footprint") "R_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "")
+				(part "SELFR")
+				(description "SELF:R")
+			)
+			(property
+				(name "LCSC")
+				(value "C23186")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "V1_USBC_9V/V1_USBC_9V.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "61798bd6-fb07-5720-a0f8-dbb7a19d3b7b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R2")
+			(value "5.1k")
+			(footprint "R_0603")
+			(fields
+				(field
+					(name "LCSC") "C23186")
+				(field
+					(name "Footprint") "R_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "")
+				(part "SELFR")
+				(description "SELF:R")
+			)
+			(property
+				(name "LCSC")
+				(value "C23186")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "V1_USBC_9V/V1_USBC_9V.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "7332473d-9ce8-509b-891c-e642d1808527")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R3")
+			(value "100k")
+			(footprint "R_0603")
+			(fields
+				(field
+					(name "LCSC") "C22775")
+				(field
+					(name "Footprint") "R_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "")
+				(part "SELFR")
+				(description "SELF:R")
+			)
+			(property
+				(name "LCSC")
+				(value "C22775")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "V1_USBC_9V/V1_USBC_9V.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "de6b3bba-0045-5da2-9c84-7b4e6313206e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R4")
+			(value "20k")
+			(footprint "R_0603")
+			(fields
+				(field
+					(name "LCSC") "C4184")
+				(field
+					(name "Footprint") "R_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "")
+				(part "SELFR")
+				(description "SELF:R")
+			)
+			(property
+				(name "LCSC")
+				(value "C4184")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "V1_USBC_9V/V1_USBC_9V.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "85b24237-ef82-5edd-b49e-b940adaf074a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R5")
+			(value "127k")
+			(footprint "R_0603")
+			(fields
+				(field
+					(name "LCSC") "C23261")
+				(field
+					(name "Footprint") "R_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "")
+				(part "SELFR")
+				(description "SELF:R")
+			)
+			(property
+				(name "LCSC")
+				(value "C23261")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "V1_USBC_9V/V1_USBC_9V.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "2fa15c42-80f0-542a-9ee1-59dfc147f932")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R6")
+			(value "10k")
+			(footprint "R_0603")
+			(fields
+				(field
+					(name "LCSC") "C25804")
+				(field
+					(name "Footprint") "R_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "")
+				(part "SELFR")
+				(description "SELF:R")
+			)
+			(property
+				(name "LCSC")
+				(value "C25804")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "V1_USBC_9V/V1_USBC_9V.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "00efdf03-46a0-5b5b-ade6-b01dd8075a01")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R7")
+			(value "100k")
+			(footprint "R_0603")
+			(fields
+				(field
+					(name "LCSC") "C22775")
+				(field
+					(name "Footprint") "R_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "")
+				(part "SELFR")
+				(description "SELF:R")
+			)
+			(property
+				(name "LCSC")
+				(value "C22775")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "V1_USBC_9V/V1_USBC_9V.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9e882d50-ed2c-5ad6-949e-4fe1848008d0")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R8")
+			(value "10k")
+			(footprint "R_0603")
+			(fields
+				(field
+					(name "LCSC") "C25804")
+				(field
+					(name "Footprint") "R_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "")
+				(part "SELFR")
+				(description "SELF:R")
+			)
+			(property
+				(name "LCSC")
+				(value "C25804")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "V1_USBC_9V/V1_USBC_9V.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "acb386ce-3b07-5b11-838a-ea17df9597d1")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R9")
+			(value "118k")
+			(footprint "R_0603")
+			(fields
+				(field
+					(name "LCSC")
+				)
+				(field
+					(name "Footprint") "R_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "")
+				(part "SELFR")
+				(description "SELF:R")
+			)
+			(property
+				(name "LCSC")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "V1_USBC_9V/V1_USBC_9V.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "db0c1c8f-ca91-5dfa-9b5a-99bee00bda22")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R10")
+			(value "51.1k")
+			(footprint "R_0603")
+			(fields
+				(field
+					(name "LCSC")
+				)
+				(field
+					(name "Footprint") "R_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "")
+				(part "SELFR")
+				(description "SELF:R")
+			)
+			(property
+				(name "LCSC")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "V1_USBC_9V/V1_USBC_9V.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "85a34d06-4853-5ff6-8a60-86909a6e353e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R11")
+			(value "220k")
+			(footprint "R_0603")
+			(fields
+				(field
+					(name "LCSC")
+				)
+				(field
+					(name "Footprint") "R_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "")
+				(part "SELFR")
+				(description "SELF:R")
+			)
+			(property
+				(name "LCSC")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "V1_USBC_9V/V1_USBC_9V.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4affb928-2251-5acf-8911-8ee0e9d5de77")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R12")
+			(value "62k")
+			(footprint "R_0603")
+			(fields
+				(field
+					(name "LCSC")
+				)
+				(field
+					(name "Footprint") "R_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "")
+				(part "SELFR")
+				(description "SELF:R")
+			)
+			(property
+				(name "LCSC")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "V1_USBC_9V/V1_USBC_9V.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "007b8b03-d827-5deb-81a5-51bf7d63dfc9")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R13")
+			(value "100k")
+			(footprint "R_0603")
+			(fields
+				(field
+					(name "LCSC") "C22775")
+				(field
+					(name "Footprint") "R_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "")
+				(part "SELFR")
+				(description "SELF:R")
+			)
+			(property
+				(name "LCSC")
+				(value "C22775")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "V1_USBC_9V/V1_USBC_9V.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "793e5e27-f42e-5db2-9a5e-8daad49a7d06")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R14")
+			(value "100k")
+			(footprint "R_0603")
+			(fields
+				(field
+					(name "LCSC") "C22775")
+				(field
+					(name "Footprint") "R_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "")
+				(part "SELFR")
+				(description "SELF:R")
+			)
+			(property
+				(name "LCSC")
+				(value "C22775")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "V1_USBC_9V/V1_USBC_9V.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e1819b37-072c-573a-a3bf-cb3f15428c98")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R15")
+			(value "0.02")
+			(footprint "R_2512")
+			(fields
+				(field
+					(name "LCSC") "C105366")
+				(field
+					(name "Footprint") "R_2512")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "")
+				(part "SELFR")
+				(description "SELF:R")
+			)
+			(property
+				(name "LCSC")
+				(value "C105366")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "V1_USBC_9V/V1_USBC_9V.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e6dc43df-13b4-5852-aef5-bff9f6e2fb57")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R18")
+			(value "100k")
+			(footprint "R_0603")
+			(fields
+				(field
+					(name "LCSC") "C22775")
+				(field
+					(name "Footprint") "R_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "")
+				(part "SELFR")
+				(description "SELF:R")
+			)
+			(property
+				(name "LCSC")
+				(value "C22775")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "V1_USBC_9V/V1_USBC_9V.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ae87ad51-e47e-54a4-aea5-7d87eed2b409")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R19")
+			(value "1M")
+			(footprint "R_0603")
+			(fields
+				(field
+					(name "LCSC")
+				)
+				(field
+					(name "Footprint") "R_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "")
+				(part "SELFR")
+				(description "SELF:R")
+			)
+			(property
+				(name "LCSC")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "V1_USBC_9V/V1_USBC_9V.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "603ab47f-0b0e-5d51-ba27-d31c4060008e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R20")
+			(value "10k")
+			(footprint "R_0603")
+			(fields
+				(field
+					(name "LCSC") "C25804")
+				(field
+					(name "Footprint") "R_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "")
+				(part "SELFR")
+				(description "SELF:R")
+			)
+			(property
+				(name "LCSC")
+				(value "C25804")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "V1_USBC_9V/V1_USBC_9V.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "6648b2eb-9abb-57ce-ab8a-402dfb42f257")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R21")
+			(value "100k")
+			(footprint "R_0603")
+			(fields
+				(field
+					(name "LCSC") "C22775")
+				(field
+					(name "Footprint") "R_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "")
+				(part "SELFR")
+				(description "SELF:R")
+			)
+			(property
+				(name "LCSC")
+				(value "C22775")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "V1_USBC_9V/V1_USBC_9V.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ef32e31b-891f-518b-bd4f-d86d4411d623")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R22")
+			(value "10k")
+			(footprint "R_0603")
+			(fields
+				(field
+					(name "LCSC") "C25804")
+				(field
+					(name "Footprint") "R_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "")
+				(part "SELFR")
+				(description "SELF:R")
+			)
+			(property
+				(name "LCSC")
+				(value "C25804")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "V1_USBC_9V/V1_USBC_9V.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a41b4693-8da1-5295-aa92-087dce796e3b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R23")
+			(value "100k")
+			(footprint "R_0603")
+			(fields
+				(field
+					(name "LCSC") "C22775")
+				(field
+					(name "Footprint") "R_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "")
+				(part "SELFR")
+				(description "SELF:R")
+			)
+			(property
+				(name "LCSC")
+				(value "C22775")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "V1_USBC_9V/V1_USBC_9V.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "872498d3-e89e-5d8e-a6c0-f2bb2ce8ef2f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R24")
+			(value "10k")
+			(footprint "R_0603")
+			(fields
+				(field
+					(name "LCSC") "C25804")
+				(field
+					(name "Footprint") "R_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "")
+				(part "SELFR")
+				(description "SELF:R")
+			)
+			(property
+				(name "LCSC")
+				(value "C25804")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "V1_USBC_9V/V1_USBC_9V.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "3b52ba60-b571-5a75-b744-804790131a9c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R25")
+			(value "10k")
+			(footprint "R_0603")
+			(fields
+				(field
+					(name "LCSC") "C25804")
+				(field
+					(name "Footprint") "R_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "")
+				(part "SELFR")
+				(description "SELF:R")
+			)
+			(property
+				(name "LCSC")
+				(value "C25804")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "V1_USBC_9V/V1_USBC_9V.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "7b8dc8da-7277-5b83-928f-a422eba4f8bc")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R26")
+			(value "4.7k")
+			(footprint "R_0603")
+			(fields
+				(field
+					(name "LCSC")
+				)
+				(field
+					(name "Footprint") "R_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "")
+				(part "SELFR")
+				(description "SELF:R")
+			)
+			(property
+				(name "LCSC")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "V1_USBC_9V/V1_USBC_9V.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "25ce3de9-38cb-5494-b3c3-47b1fa3e018b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R27")
+			(value "1k")
+			(footprint "R_0603")
+			(fields
+				(field
+					(name "LCSC") "C21190")
+				(field
+					(name "Footprint") "R_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "")
+				(part "SELFR")
+				(description "SELF:R")
+			)
+			(property
+				(name "LCSC")
+				(value "C21190")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "V1_USBC_9V/V1_USBC_9V.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "0fbbdfde-5a80-5d8a-a566-8d7bd5235870")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R31")
+			(value "10k")
+			(footprint "R_0603")
+			(fields
+				(field
+					(name "LCSC") "C25804")
+				(field
+					(name "Footprint") "R_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "")
+				(part "SELFR")
+				(description "SELF:R")
+			)
+			(property
+				(name "LCSC")
+				(value "C25804")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "V1_USBC_9V/V1_USBC_9V.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "7ca23ee5-6e9a-535e-9613-44382ffaa8af")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R32")
+			(value "500k")
+			(footprint "R_0603")
+			(fields
+				(field
+					(name "LCSC")
+				)
+				(field
+					(name "Footprint") "R_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "")
+				(part "SELFR")
+				(description "SELF:R")
+			)
+			(property
+				(name "LCSC")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "V1_USBC_9V/V1_USBC_9V.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "0e0f938a-4c35-56bf-9ac2-f92b191ea70f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R33")
+			(value "500k")
+			(footprint "R_0603")
+			(fields
+				(field
+					(name "LCSC")
+				)
+				(field
+					(name "Footprint") "R_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "")
+				(part "SELFR")
+				(description "SELF:R")
+			)
+			(property
+				(name "LCSC")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "V1_USBC_9V/V1_USBC_9V.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "85c27a15-f8ae-5b47-87cf-6fb45b9ed5a9")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R34")
+			(value "10k")
+			(footprint "R_0603")
+			(fields
+				(field
+					(name "LCSC") "C25804")
+				(field
+					(name "Footprint") "R_0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "")
+				(part "SELFR")
+				(description "SELF:R")
+			)
+			(property
+				(name "LCSC")
+				(value "C25804")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "V1_USBC_9V/V1_USBC_9V.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9caa21b1-c072-5e16-b1c6-ab3202fc8f0d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U2")
+			(value "TPS61170DRVR")
+			(footprint "QFN-6_L2.0-W2.0-H0.8-P0.65")
+			(fields
+				(field
+					(name "LCSC") "C15163")
+				(field
+					(name "Footprint") "QFN-6_L2.0-W2.0-H0.8-P0.65")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "")
+				(part "EASYTPS61170DRVR")
+				(description "EASY:TPS61170DRVR")
+			)
+			(property
+				(name "LCSC")
+				(value "C15163")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "V1_USBC_9V/V1_USBC_9V.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "451765c6-3546-5994-aa0c-d706183884e1")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "7")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U3")
+			(value "LM4040C25")
+			(footprint "SOT-23")
+			(fields
+				(field
+					(name "LCSC") "C44215")
+				(field
+					(name "Footprint") "SOT-23")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "")
+				(part "SELFREF")
+				(description "SELF:REF")
+			)
+			(property
+				(name "LCSC")
+				(value "C44215")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "V1_USBC_9V/V1_USBC_9V.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "531bd27c-ba29-5c79-807f-0ea937e39b85")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U4")
+			(value "LM2903A")
+			(footprint "SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL")
+			(fields
+				(field
+					(name "LCSC") "C7549")
+				(field
+					(name "Footprint") "SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "")
+				(part "SELFCMP")
+				(description "SELF:CMP")
+			)
+			(property
+				(name "LCSC")
+				(value "C7549")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "V1_USBC_9V/V1_USBC_9V.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "bb711c70-7074-51ed-9569-0208cfe381bb" "6212f58c-1c90-5127-be34-1766c76b4b68"
+				"6212f58c-1c90-5127-be34-1766c76b4b67"
+			)
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U6")
+			(value "LM2903A")
+			(footprint "SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL")
+			(fields
+				(field
+					(name "LCSC") "C7549")
+				(field
+					(name "Footprint") "SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "")
+				(part "SELFCMP")
+				(description "SELF:CMP")
+			)
+			(property
+				(name "LCSC")
+				(value "C7549")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "V1_USBC_9V/V1_USBC_9V.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "59d69f46-d460-58f1-a1d4-90e0f8b034d9" "d2268dad-2bd8-510c-89df-ffee6e5a99ab"
+				"59d69f46-d460-58f1-a1d4-90e0f8b034d8"
+			)
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+	)
+	(groups)
+	(variants)
+	(libparts
+		(libpart
+			(lib "")
+			(part "EASYAO3401A")
+			(description "EASY:AO3401A")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "EASYAO3401A")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "EASY:AO3401A")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "G")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "S")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "D")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "")
+			(part "EASYDC005_C431533")
+			(description "EASY:DC005_C431533")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "EASYDC005_C431533")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "EASY:DC005_C431533")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "3")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "")
+			(part "EASYKH-6X6X5H-TJ")
+			(description "EASY:KH-6X6X5H-TJ")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "EASYKH-6X6X5H-TJ")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "EASY:KH-6X6X5H-TJ")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "4")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "")
+			(part "EASYMMBT3904-C20526")
+			(description "EASY:MMBT3904-C20526")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "EASYMMBT3904-C20526")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "EASY:MMBT3904-C20526")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "B")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "E")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "C")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "")
+			(part "EASYTPS61170DRVR")
+			(description "EASY:TPS61170DRVR")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "EASYTPS61170DRVR")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "EASY:TPS61170DRVR")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "FB")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "COMP")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "SW")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "CTRL")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "VIN")
+					(type "passive")
+				)
+				(pin
+					(num "7")
+					(name "EP")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "")
+			(part "EASYTYPE-C-31-M-12")
+			(description "EASY:TYPE-C-31-M-12")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "EASYTYPE-C-31-M-12")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "EASY:TYPE-C-31-M-12")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "EH")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "EH")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "EH")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "EH")
+					(type "passive")
+				)
+				(pin
+					(num "A1B12")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "A4B9")
+					(name "VBUS")
+					(type "passive")
+				)
+				(pin
+					(num "A5")
+					(name "CC1")
+					(type "passive")
+				)
+				(pin
+					(num "A6")
+					(name "DP1")
+					(type "passive")
+				)
+				(pin
+					(num "A7")
+					(name "DN1")
+					(type "passive")
+				)
+				(pin
+					(num "A8")
+					(name "SBU1")
+					(type "passive")
+				)
+				(pin
+					(num "B1A12")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "B4A9")
+					(name "VBUS")
+					(type "passive")
+				)
+				(pin
+					(num "B5")
+					(name "CC2")
+					(type "passive")
+				)
+				(pin
+					(num "B6")
+					(name "DP2")
+					(type "passive")
+				)
+				(pin
+					(num "B7")
+					(name "DN2")
+					(type "passive")
+				)
+				(pin
+					(num "B8")
+					(name "SBU2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "")
+			(part "SELFC")
+			(description "SELF:C")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "SELFC")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "SELF:C")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "")
+			(part "SELFCMP")
+			(description "SELF:CMP")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "SELFCMP")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "SELF:CMP")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "OUT")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "MINUS")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "PLUS")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "")
+			(part "SELFD")
+			(description "SELF:D")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "SELFD")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "SELF:D")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "K")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "A")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "")
+			(part "SELFF")
+			(description "SELF:F")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "SELFF")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "SELF:F")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "")
+			(part "SELFL")
+			(description "SELF:L")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "SELFL")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "SELF:L")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "")
+			(part "SELFLED")
+			(description "SELF:LED")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "SELFLED")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "SELF:LED")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "A")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "K")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "")
+			(part "SELFR")
+			(description "SELF:R")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "SELFR")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "SELF:R")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "")
+			(part "SELFREF")
+			(description "SELF:REF")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "SELFREF")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "SELF:REF")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "K")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "A")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "")
+			(part "SELFTVS")
+			(description "SELF:TVS")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "SELFTVS")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "SELF:TVS")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+	)
+	(libraries)
+	(nets
+		(net
+			(code "1")
+			(name "/CC1")
+			(class "Default")
+			(node
+				(ref "R1")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "2")
+			(name "/CC2")
+			(class "Default")
+			(node
+				(ref "R2")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "3")
+			(name "/COMP")
+			(class "Default")
+			(node
+				(ref "C3")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C4")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R6")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "2")
+				(pinfunction "COMP_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "4")
+			(name "/CTRL")
+			(class "Default")
+			(node
+				(ref "R7")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "5")
+				(pinfunction "CTRL_5")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "5")
+			(name "/FB")
+			(class "Default")
+			(node
+				(ref "R4")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R5")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "1")
+				(pinfunction "FB_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "6")
+			(name "/GATE1")
+			(class "Default")
+			(node
+				(ref "Q1")
+				(pin "1")
+				(pinfunction "G_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R3")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "7")
+			(name "/GATE2")
+			(class "Default")
+			(node
+				(ref "D3")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "K1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "K1")
+				(pin "3")
+				(pinfunction "3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q2")
+				(pin "1")
+				(pinfunction "G_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q7")
+				(pin "3")
+				(pinfunction "C_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q8")
+				(pin "3")
+				(pinfunction "C_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q9")
+				(pin "3")
+				(pinfunction "C_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "R18")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R19")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "8")
+			(name "/LED_PWR")
+			(class "Default")
+			(node
+				(ref "D7")
+				(pin "2")
+				(pinfunction "K_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R26")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "9")
+			(name "/LED_RED")
+			(class "Default")
+			(node
+				(ref "D8")
+				(pin "2")
+				(pinfunction "K_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R27")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "10")
+			(name "/OC")
+			(class "Default")
+			(node
+				(ref "R22")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U6")
+				(pin "1")
+				(pinfunction "OUT_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "11")
+			(name "/OCLT")
+			(class "Default")
+			(node
+				(ref "U6")
+				(pin "1")
+				(pinfunction "OUT_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U6")
+				(pin "2")
+				(pinfunction "MINUS_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "12")
+			(name "/OCM")
+			(class "Default")
+			(node
+				(ref "R31")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R33")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "13")
+			(name "/OCP")
+			(class "Default")
+			(node
+				(ref "R32")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R34")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U6")
+				(pin "3")
+				(pinfunction "PLUS_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "14")
+			(name "/OC_B")
+			(class "Default")
+			(node
+				(ref "Q8")
+				(pin "1")
+				(pinfunction "B_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R22")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R23")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "15")
+			(name "/OV")
+			(class "Default")
+			(node
+				(ref "R13")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R20")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "1")
+				(pinfunction "OUT_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "16")
+			(name "/OVP")
+			(class "Default")
+			(node
+				(ref "C10")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R11")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R12")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "3")
+				(pinfunction "PLUS_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "17")
+			(name "/OV_B")
+			(class "Default")
+			(node
+				(ref "Q7")
+				(pin "1")
+				(pinfunction "B_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R20")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R21")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "18")
+			(name "/Q2D")
+			(class "Default")
+			(node
+				(ref "Q2")
+				(pin "3")
+				(pinfunction "D_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "R15")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R19")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R32")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "19")
+			(name "/SW")
+			(class "Default")
+			(node
+				(ref "D2")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "L1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "4")
+				(pinfunction "SW_4")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "20")
+			(name "/UV")
+			(class "Default")
+			(node
+				(ref "R14")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R24")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "1")
+				(pinfunction "OUT_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "21")
+			(name "/UVP")
+			(class "Default")
+			(node
+				(ref "C9")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R10")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R9")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "2")
+				(pinfunction "MINUS_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "22")
+			(name "/UV_B")
+			(class "Default")
+			(node
+				(ref "Q4")
+				(pin "1")
+				(pinfunction "B_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R24")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "23")
+			(name "/UV_C")
+			(class "Default")
+			(node
+				(ref "Q4")
+				(pin "3")
+				(pinfunction "C_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q9")
+				(pin "1")
+				(pinfunction "B_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R25")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R27")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "24")
+			(name "/VREF")
+			(class "Default")
+			(node
+				(ref "C7")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R33")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R34")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R8")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U3")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "2")
+				(pinfunction "MINUS_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "3")
+				(pinfunction "PLUS_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "U6")
+				(pin "2")
+				(pinfunction "MINUS_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U6")
+				(pin "3")
+				(pinfunction "PLUS_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "25")
+			(name "GND_0V")
+			(class "Default")
+			(node
+				(ref "C1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C10")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C11")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C11")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C13")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C2")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C2")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C3")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C4")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C5")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C5")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C6")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C6")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C7")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C8")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C8")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C9")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "D1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "D2")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "D3")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D4")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D4")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "D5")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D5")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "D6")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "D7")
+				(pin "1")
+				(pinfunction "A_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D8")
+				(pin "1")
+				(pinfunction "A_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "F1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "1")
+				(pinfunction "EH_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "2")
+				(pinfunction "EH_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "3")
+				(pinfunction "EH_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "4")
+				(pinfunction "EH_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "A1B12")
+				(pinfunction "GND_A1B12")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "B1A12")
+				(pinfunction "GND_B1A12")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "K1")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "K1")
+				(pin "4")
+				(pinfunction "4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "L1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q1")
+				(pin "2")
+				(pinfunction "S_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q2")
+				(pin "2")
+				(pinfunction "S_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q4")
+				(pin "2")
+				(pinfunction "E_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q7")
+				(pin "2")
+				(pinfunction "E_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q8")
+				(pin "2")
+				(pinfunction "E_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q9")
+				(pin "2")
+				(pinfunction "E_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R10")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R11")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R12")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R13")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R14")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R18")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R2")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R21")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R23")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R25")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R26")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R3")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R4")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R5")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R6")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R7")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R8")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R9")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "3")
+				(pinfunction "GND_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "6")
+				(pinfunction "VIN_6")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "7")
+				(pinfunction "EP_7")
+				(pintype "passive")
+			)
+			(node
+				(ref "U3")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "4")
+				(pinfunction "VMINUS_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "8")
+				(pinfunction "VPLUS_8")
+				(pintype "passive")
+			)
+			(node
+				(ref "U6")
+				(pin "4")
+				(pinfunction "VMINUS_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "U6")
+				(pin "8")
+				(pinfunction "VPLUS_8")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "26")
+			(name "PWR_PEDAL")
+			(class "Default")
+			(node
+				(ref "F2")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R15")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R31")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "27")
+			(name "PWR_PEDALJ")
+			(class "Default")
+			(node
+				(ref "C13")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D6")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "F2")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "28")
+			(name "PWR_VBUS")
+			(class "Default")
+			(node
+				(ref "F1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "A4B9")
+				(pinfunction "VBUS_A4B9")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "B4A9")
+				(pinfunction "VBUS_B4A9")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q1")
+				(pin "3")
+				(pinfunction "D_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "29")
+			(name "unconnected-(J1-CC1-PadA5)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "A5")
+				(pinfunction "CC1_A5")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "30")
+			(name "unconnected-(J1-CC2-PadB5)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "B5")
+				(pinfunction "CC2_B5")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "31")
+			(name "unconnected-(J1-DN1-PadA7)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "A7")
+				(pinfunction "DN1_A7")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "32")
+			(name "unconnected-(J1-DN2-PadB7)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "B7")
+				(pinfunction "DN2_B7")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "33")
+			(name "unconnected-(J1-DP1-PadA6)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "A6")
+				(pinfunction "DP1_A6")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "34")
+			(name "unconnected-(J1-DP2-PadB6)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "B6")
+				(pinfunction "DP2_B6")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "35")
+			(name "unconnected-(J1-SBU1-PadA8)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "A8")
+				(pinfunction "SBU1_A8")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "36")
+			(name "unconnected-(J1-SBU2-PadB8)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "B8")
+				(pinfunction "SBU2_B8")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "37")
+			(name "unconnected-(J2-Pad3)")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "3")
+				(pinfunction "3_3")
+				(pintype "passive")
+			)
+		)
+	)
+)

@@ -1,0 +1,9 @@
+(version 1)
+(rule "Rated for JLCPCB 0.1mm"
+  (constraint track_width (min 0.15mm))
+  (constraint clearance (min 0.1mm))
+  (constraint hole_clearance (min 0.25mm))
+  (constraint hole_to_hole (min 0.25mm))
+  (constraint annular_width (min 0.05mm))
+  (constraint edge_clearance (min 0.3mm))
+)

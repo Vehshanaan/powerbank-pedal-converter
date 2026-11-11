@@ -1,39 +1,49 @@
 # Repository Guidelines
 
-## 项目结构与需求入口
+## 项目目标
 
-本仓库目前处于需求梳理阶段，目标是探索通过充电宝 USB-C 接口为效果器的 9V 电源入口供电。
+设计一款"充电宝 USB-C → 效果器 9V（中心负）"的小型电源板，交付物是**可以直接投嘉立创的成套制造文件**（Gerber、钻孔、坐标、BOM、下单说明、测试步骤），而不只是文档。
 
-- `docs/20261111 需求描述.md`：原始使用场景、现有方案及用户诉求，修改方案前先阅读。
-- `docs/`：存放需求澄清、方案比较和验证记录。
-- 当前没有源代码、测试目录或设计资产。新增实现时，按实际内容组织目录，并在本指南中补充入口。
+- `docs/01-需求/`：用户原始需求。
+- `docs/02-方案/`：架构与安全设计（早期稿，最终以 PCB 与 `generator/design.py` 为准）。
+- `docs/03-原理设计/`：电气指标、器件、保护行为。
+- `docs/04-元件与BOM/`：BOM 相关说明（实际 BOM 在 release）。
+- `docs/05-PCB与下单/`：嘉立创下单参数、组装与上电检查。
+- `docs/06-测试与验收/`：测试步骤与记录模板。
+- `docs/07-评审/`：独立评审的原始意见与处理结论。
+- `hardware/v1-usbc-9v/generator/`：**设计源与构建脚本**（唯一真相）。
+- `hardware/v1-usbc-9v/V1_USBC_9V/`：生成的 KiCad 工程（原理图、PCB、DRC 报告）。
+- `hardware/v1-usbc-9v/release/`：投板文件包（gerber/、坐标、BOM）。
+- `hardware/v1-usbc-9v/route/`：自动布线的 DSN/SES 与日志。
 
-## 开发与检查命令
+## 构建命令
 
-在仓库根目录使用 PowerShell：
+必须用 KiCad 自带 Python（有 pcbnew）：
 
-```powershell
-git status --short     # 确认当前改动范围
-git diff -- docs/      # 检查已有文档的修改
-git diff --check       # 检查差异中的空白问题
+```bash
+cd hardware/v1-usbc-9v
+"C:/Users/yuanrunze.vdi/AppData/Local/Programs/KiCad/10.0/bin/python.exe" generator/build_all.py
 ```
 
-新文件需直接打开核对，未跟踪文件不会出现在普通 `git diff` 中。当前没有构建、启动或自动测试命令；引入工具链时同步记录安装条件和可复现命令。
+它会依次：生成未布线 PCB → 导出 DSN → Freerouting 自动布线 → 回注 → 铺铜/丝印/NPTH → DRC（必须 0 违规 0 未连接）→ 出 Gerber/钻孔/坐标/BOM。
 
-## 文档风格与命名约定
+单独步骤：
 
-正文优先使用中文，保留必要的英文接口名、命令和标识符。使用 Markdown 标题组织内容，段落简短，列表缩进统一为两个空格。
+```bash
+python generator/gen_sch.py      # 原理图（仅供阅读，不作为网表来源）
+python generator/gen_pcb.py      # 只生成 PCB
+python generator/check_netlist.py
+python generator/geometry_check.py
+```
 
-延续现有日期加主题的文件名，例如 `docs/20261112 方案比较.md`。描述参数时写清单位、来源及适用条件；将用户需求、方案假设和实际测量结果分别说明。当前没有格式化或 lint 工具配置；新增代码时再依据所选语言确定规范。
+## 关键约束
 
-## 验证与测试记录
+- **网表唯一来源是 `generator/design.py`**。KiCad 原理图的标签网表在本机 KiCad 10 上会丢电源网络，不可作为判据。
+- 自动布线只允许 `Freerouting 2.1.0` + `-Djava.awt.headless=true`；2.5 版会弹窗，禁止使用。
+- 设计规则：间距 0.1 mm、线宽 ≥ 0.15 mm（嘉立创经济型能力），见 `V1_USBC_9V.kicad_dru`。
+- 本机有 ESAFENET 透明加密驱动：**不要用内联 python 打补丁修改脚本**，改文件用 Write/Edit 整段替换，改完立即 `ast.parse` 校验。
 
-当前没有测试框架或覆盖率门槛。文档改动需核对相对链接、参数前后一致性及需求对应关系。
+## 文档与提交
 
-涉及后续硬件验证时，在 `docs/` 记录设备型号、连接方式、测试条件、预期结果与实测结果，明确尚未验证的项目。仅完成资料整理时，应明确标为资料结论。引入自动测试后，补充测试位置、命名规则及运行命令。
-
-## 提交与 Pull Request
-
-Git 历史目前只有一条提交：`初始化仓库：描述了我的需求`，尚无成熟的提交规范。后续使用简短中文说明具体改动，例如 `补充方案比较：记录供电需求`，每次提交围绕一个目的。
-
-PR 说明改动目的、涉及文件及验证方式；存在关联 issue 时附上链接。方案变更应说明对应需求与待确认项；涉及接线或外观变化时附图。提交前检查差异，避免混入无关文件或本机配置。
+- 中文正文，保留英文型号与命令；文件名沿用"日期 + 主题"。
+- 提交使用简短中文说明，每次围绕一个目的；提交前 `git status --short` 确认范围，不要 `git add -A`。
